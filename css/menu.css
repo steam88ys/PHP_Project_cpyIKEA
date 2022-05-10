@@ -1,0 +1,51 @@
+body {
+    letter-spacing :-1px ;
+    margin: 0%;
+}
+
+#logo{
+    float: left;
+    padding-top: 2%;
+    padding-left: 3%;
+    width: 90px;
+    height: 40px;
+}
+
+div.menu_bar {
+    background-color: black;
+    color: white;
+    margin-right: 2px;
+}
+
+div.side_bar {
+    float: left;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+div.menu {
+    font-weight: bold;
+}
+
+ul {
+    width: 100%;
+    text-align: center;
+    list-style:none;
+    margin:0;
+    padding:0;
+    padding-bottom: 5px;
+}
+li{
+    display: inline-block;
+    
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    padding-right: 2%;
+    border : 0;
+}
+
+#line {
+    padding-left: 7.5%;
+    width: 90%;
+}
