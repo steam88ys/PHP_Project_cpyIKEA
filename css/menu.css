@@ -54,8 +54,41 @@ li{
 }
 
 #member {
+    letter-spacing: normal;
     width: 400px;
     float: right;
     padding-top: 2%;
     font-weight: bold;
+}
+
+.keyword {
+    width: 56%;
+    float: left;
+    height: 45px;
+    padding-left: 3%;   /* 가로 사이즈 좁아질때 위치 안 맞음 */
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-left: 25px;
+    border : 2px solid rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
+    border-radius: 30px;
+}
+
+input {
+    float: left;
+    font-size: 14px;
+}
+
+#searching {
+    position: absolute;
+    float: left;
+    padding-top: 45px;
+    padding-left: 38px;
+}
+
+#camera {
+    float: right;   /* 위치 수정하기 */
+    position: absolute;
+    padding-top: 36px;
+    padding-right: 500px;
 }

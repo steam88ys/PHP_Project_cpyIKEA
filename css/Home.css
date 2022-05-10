@@ -6,22 +6,4 @@
 
 .main_content {
     padding-left: 8%;
-}
-
-.keyword {
-    float: left;
-    height: 45px;
-    padding-left: 2%;
-    margin-top: 30px;
-    margin-left: 20px;
-    border : 2px solid rgb(231, 231, 231);
-    background-color: rgb(231, 231, 231);
-    border-radius: 30px;
-}
-
-input {
-    width: 50%;
-    float: left;
-    font-size: 14px;
-}
-  
+}  
