@@ -1,14 +1,21 @@
+.container-fluid {
+    padding: 0%;
+}
 body {
     letter-spacing :-1px ;
     margin: 0%;
 }
 
+@media screen and (max-width: 1200px) { 
+    #side_icon { display: none; } 
+    #login { display: none; }
+    .menu { display: none; }
+}
+
 #logo{
     float: left;
-    padding-top: 30px;
-    padding-left: 3%;
-    width: 87px;
-    height: 36px;
+    width: 85px;
+    height: 35px;
 }
 
 div.menu_bar {
@@ -25,7 +32,6 @@ div.side_bar {
 
 div.menu {
     padding-top: 1%;
-    padding-left: 7%;
     width: 300px;
     float: left;
     clear: both;
@@ -50,23 +56,20 @@ li{
 
 #store {
     float: right;
-    padding-top: 10px;
-    padding-right: 70px;
-    width: 100px;
-    height: 27px;
+    padding-right:60px;
 }
 
 #line {
-    padding-left: 7.5%;
-    width: 89%;
+    width: 96%;
 }
 
 #member {
-    letter-spacing: normal;
-    width: 400px;
+    letter-spacing:-1;
+    width: 360px;
     float: right;
-    padding-top: 35px;
     font-weight: bold;
+    padding-top: 15px;
+    padding-right: 60px;
 }
 
 #right_icon {
@@ -76,12 +79,10 @@ li{
 
 .keyword {
     position: relative;
-    width: 53%;
+    width: 83%;
     float: left;
-    height: 48px;
-    padding-left: 3%;   /*돋보기 아이콘 뒤 검색 입력 창 시작 위치*/
-    padding-right: 30px;
-    margin-top: 20px;
+    height: 50px;
+    padding-left: 4%;   /*돋보기 아이콘 뒤 검색 입력 창 시작 위치*/
     margin-left: 35px;
     border : 2px solid rgb(245, 245, 245);
     background-color: rgb(245, 245, 245);
@@ -97,7 +98,7 @@ input {
 #searching {    /*돋보기 아이콘*/
     position: absolute;
     float: left;
-    padding-top: 35px;
+    padding-top: 10px;
     padding-left: 50px;
     margin: 0%;
     z-index: 10;
@@ -106,7 +107,7 @@ input {
 #camera {   /*카메라 아이콘*/
     width: 40px;
     position: absolute;
-    padding-top: 28px;
+    padding-top: 10px;
     z-index: 10;
-    right: 27%;
+    right: 35%;
 }
