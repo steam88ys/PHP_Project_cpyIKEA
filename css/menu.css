@@ -6,10 +6,19 @@ body {
     margin: 0%;
 }
 
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 1300px) { 
     #side_icon { display: none; } 
     #login { display: none; }
     .menu { display: none; }
+}
+@media screen and (max-width: 1090px) { 
+    #liveorder  { display: none; }
+    #hotitem  { display: none; }
+    #logo {margin-left: 25px;}
+    input.keyword {margin-top: 30px;}
+    img#searching {padding-top: 80px;}
+    img#camera {padding-top: 80px; }
+    #store { padding-right: 100px;}
 }
 
 #logo{
@@ -26,7 +35,7 @@ div.menu_bar {
 
 div.side_bar {
     float: left;
-    padding-left: 3%;
+    margin-left: 40%;
     padding-top: 2%;
 }
 
