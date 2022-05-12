@@ -66,6 +66,9 @@ li{
 #store {
     float: right;
     padding-right:60px;
+    padding-top: 10px;
+    width: 160px;
+    height: 35px;
 }
 
 #line {

@@ -3,3 +3,22 @@
     height: auto;
     padding-bottom: 5%;
 }
+
+#watchingnow {
+    font-size: small;
+    letter-spacing: -2px;
+    float: right;
+    margin-right: 90px;
+    text-align: center;
+    width: 110px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 18px;
+}
+
+#content {
+    width: 69%;
+}
