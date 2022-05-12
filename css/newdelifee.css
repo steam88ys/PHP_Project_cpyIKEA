@@ -1,7 +1,34 @@
 #flow {
     font-size: 13px;
 }
+body {
+    font-size: small;
+}
+
 #content {
-    font-size: 14px;
+    padding-top: 50px;
     width: 710px;
+}
+#pickup1 {
+    width: 94%;
+    height: 45%;
+    padding-bottom: 30px;
+}
+#pickup2 {
+    width: 94%;
+    height: 52%;
+    padding-bottom: 30px;
+}
+a {
+    font-size: small;
+}
+.under {
+    text-decoration: underline;
+    color: black;
+}
+#line {
+    padding-top: 60px;
+}
+#leftcontent {
+    padding-top: 10%;
 }

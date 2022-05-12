@@ -1,0 +1,13 @@
+footer {
+    font-size: small;
+    background-color: rgba(220, 220, 220, 0.279);
+}
+
+#footer_content {
+    padding-top: 85px;
+    padding-bottom: 80px;
+}
+
+#footer_rule {
+    padding-top: 20px;
+}
