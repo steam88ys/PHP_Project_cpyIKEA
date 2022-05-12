@@ -98,7 +98,7 @@ input {
 #searching {    /*돋보기 아이콘*/
     position: absolute;
     float: left;
-    padding-top: 10px;
+    padding-top: 12px;
     padding-left: 50px;
     margin: 0%;
     z-index: 10;
@@ -107,7 +107,7 @@ input {
 #camera {   /*카메라 아이콘*/
     width: 40px;
     position: absolute;
-    padding-top: 10px;
+    padding-top: 5px;
     z-index: 10;
-    right: 35%;
+    right: 30%;
 }
