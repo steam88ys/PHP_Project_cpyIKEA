@@ -27,6 +27,13 @@ body {
     height: 35px;
 }
 
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+
 div.menu_bar {
     background-color: black;
     color: white;
