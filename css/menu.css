@@ -128,3 +128,7 @@ input {
     z-index: 10;
     right: 30%;
 }
+
+#flow {
+    font-size: 13px;
+}
