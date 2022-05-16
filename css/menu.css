@@ -3,7 +3,6 @@
 }
 body {
     letter-spacing :-1px ;
-    margin: 0%;
 }
 
 @media screen and (max-width: 1300px) { 
@@ -37,7 +36,6 @@ a:hover {
 div.menu_bar {
     background-color: black;
     color: white;
-    margin-right: 2px;
 }
 
 div.side_bar {
