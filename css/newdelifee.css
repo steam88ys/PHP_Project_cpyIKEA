@@ -32,3 +32,8 @@ a {
 #leftcontent {
     padding-top: 10%;
 }
+
+#rightimg {
+    padding-top: 170px;
+    width: 100%;
+}
