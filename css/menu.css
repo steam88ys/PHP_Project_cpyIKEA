@@ -35,7 +35,8 @@ a:visited {
     color: white;
 }
 a:hover {
-    color: white;
+    text-decoration: underline;
+    color: rgb(171, 168, 168);
 }
 
 div.menu_bar {
