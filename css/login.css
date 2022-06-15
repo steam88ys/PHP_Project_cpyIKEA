@@ -1,0 +1,39 @@
+body {
+    color: white;
+    letter-spacing :-2px ;
+    overflow-y: hidden
+}
+
+#logo2 {
+    padding-top: 30px;
+}
+
+h2 {
+    color: rgb(255, 225, 73);
+    font-weight: bold;
+}
+
+#bluecontent {
+    background-color: rgb(6, 81, 173);
+    width: auto;
+    height: 850px;
+    padding-right: 200px;
+    ;
+
+}
+
+#login_footer {
+    font-size: small;
+}
+
+#left_bluecontent {
+    background-color: rgb(6, 81, 173);
+}
+
+#white_content {
+    padding-left: 50px;
+}
+
+input {
+    padding-top: 10px;
+}
