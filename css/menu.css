@@ -34,6 +34,7 @@ a {
 a:visited {
     color: white;
 }
+
 a:hover {
     text-decoration: underline;
     color: rgb(171, 168, 168);
