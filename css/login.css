@@ -1,7 +1,6 @@
 body {
-    color: white;
     letter-spacing :-2px ;
-    overflow-y: hidden
+    overflow-y: hidden;
 }
 
 #logo2 {
@@ -14,12 +13,11 @@ h2 {
 }
 
 #bluecontent {
+    color: white;
     background-color: rgb(6, 81, 173);
-    width: auto;
-    height: 850px;
+    width: fit-content;
+    padding-bottom: 150px;
     padding-right: 200px;
-    ;
-
 }
 
 #login_footer {
@@ -31,9 +29,26 @@ h2 {
 }
 
 #white_content {
-    padding-left: 50px;
+    margin-top: 50px;
+    padding-left: 90px;
 }
 
-input {
-    padding-top: 10px;
+#sq_btn {
+    height: 40px;
+}
+
+#log_btn  {
+    border: 2px;
+    height: 56px;
+    width: 450px;
+    border-radius: 40px;
+}
+
+.blue_btn {
+    background-color: rgb(6, 81, 173);
+    color: white;
+}
+
+.white_btn {
+    background-color: white;
 }

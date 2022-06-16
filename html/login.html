@@ -14,7 +14,7 @@
             <div class="col-md-1" id="left_bluecontent"></div>
             <div class="col-md-5" id="bluecontent">
                 <img src="../img/logo2.png" id="logo2"><br><br>
-                <br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br>
                 <h2>로그인</h2>
                 외워야 할 비밀번호가 많아 불편하셨죠?<br>
                 이제 일회용 코드를 이용하여 간편하게 로그인하세요.<br><br>
@@ -28,20 +28,26 @@
             </div>
 
             <div class="col-md-5" id="white_content" style="padding-top: 60px;">
-                이메일 또는 확인된 휴대폰 번호<br> <input type="text" name="email" size="50"><br><br><br>
-                비밀번호<input type="text" name="pasword" size="50"><br><br><br>
-                <input type="checkbox" name="loginstate">로그인 상태 유지
+                이메일 또는 확인된 휴대폰 번호<br>
+                <input id="sq_btn" type="text" name="email" size="50"><br>
+                다른 로그인 옵션: 일회용 코드로 로그인<br><br>
+
+                비밀번호<br>
+                <input id="sq_btn" type="text" name="pasword" size="50"><br>
+                비밀번호 찾기<br><br>
+                <input type="checkbox" name="loginstate">로그인 상태 유지<br><br>
+
+                <input id="log_btn" class="blue_btn" type="submit" value="로그인"><br><br><br><br>
+
+                <strong>계정이 없으신가요? 지금 바로 만들어보세요:</strong> <br><br><br>
+                <input id="log_btn" class="white_btn" type="submit" value="개인 회원 가입하기" style="border: 1px solid black;"><br><br>
+                <input id="log_btn" class="white_btn" type="submit" value="비즈니스 회원 가입하기" style="border: 1px solid black;"><br>
             </div>
         </div>
     </div>
-    
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     
 </body>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>
