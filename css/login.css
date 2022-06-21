@@ -10,16 +10,19 @@ body {
 }
 @media screen and (max-width: 1090px) { 
     #bluecontent {height: 400px;}
+    #logo2 {display: none;}
 }
 
 
 #logo2 {
     padding-top: 30px;
     padding-left: 50px;
+    margin-bottom: 250px;
 }
 #arrow {
     padding-left: 10px;
     padding-top: 30px;
+    margin-bottom: 250px;
 }
 
 h2 {
@@ -32,6 +35,10 @@ h2 {
     background-color: rgb(22, 87, 166);
     padding-bottom: 150px;
     padding-left: 50px;
+}
+
+#login_content {
+    padding-left: 90px;
 }
 
 #login_footer {

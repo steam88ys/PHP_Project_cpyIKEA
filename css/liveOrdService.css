@@ -1,3 +1,46 @@
 a {
     font-size: small;
 }
+
+#line2 {
+    width: 96%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#content {
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+#btn {
+    text-align: center;
+    font-size: small;
+    padding: 11px 20px 31px 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    height: 30px;
+    border: 2px;
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+
+/* 이미지 */
+#callOrder {
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+#underimg {
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 30px;
+}
