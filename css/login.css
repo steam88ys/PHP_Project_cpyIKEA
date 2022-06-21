@@ -9,7 +9,7 @@ body {
     body{overflow-y: scroll;}
 }
 @media screen and (max-width: 1090px) { 
-
+    #bluecontent {height: 400px;}
 }
 
 
@@ -61,4 +61,9 @@ h2 {
 
 .white_btn {
     background-color: white;
+}
+
+#loginstate {   /* 체크박스(로그인 상태) */
+    zoom: 2.0;
+    vertical-align: middle;
 }

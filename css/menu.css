@@ -10,6 +10,7 @@ body {
     #side_icon { display: none; } 
     #login { display: none; }
     .menu { display: none; }
+    #searching {padding-bottom: 100px;}
 }
 @media screen and (max-width: 1090px) { 
     #liveorder  { display: none; }
@@ -118,21 +119,24 @@ input {
     font-size: 14px;
 }
 
+#searchwindow {
+    position: relative;
+}
+
 #searching {    /*돋보기 아이콘*/
+    justify-content: space-between;
     position: absolute;
-    float: left;
-    padding-top: 12px;
-    padding-left: 50px;
-    margin: 0%;
-    z-index: 10;
+    top: 12px;
+    left: 130px;
 }
 
 #camera {   /*카메라 아이콘*/
-    width: 40px;
     position: absolute;
     padding-top: 5px;
+    right: 8%;
     z-index: 10;
-    right: 30%;
+    width: 40px;
+    float: right;
 }
 
 #flow {

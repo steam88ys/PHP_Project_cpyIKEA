@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../css/menu.css">
     <link rel="stylesheet" type="text/css" href="../css/liveOrdService.css">
     <link rel="stylesheet" type="text/css" href="../css/footer.css">
-    <title>IKEA KOREA | 이케아 코리아 - IKEA</title>
+    <title>실시간 주문 서비스 - IKEA</title>
 </head>
 <body>
     <div class="container-fluid">
@@ -40,12 +40,16 @@
                 <div class="up_bar">
                     <a href="../html/index.html"><img id='logo' src ="../img/logo.png"></a>
                 </div>
-                <form class="search">
-                    <img id="searching" src="../img/searching.png">
-                    <input class='keyword' type='text' name='search' maxlength=255 value="" 
-                    autocomplete="off" placeholder="검색어 입력">
-                    <img id="camera" src="../img/camera.png"> 
-                </form>
+
+                <div id="searchwindow">
+                    <input class='keyword' type='text' name='search' placeholder="검색어 입력">
+                    
+                    <div class="icon">
+                        <img id="searching" src="../img/searching.png">
+                        <img id="camera" src="../img/camera.png"> 
+                    </div>
+                    
+                </div>
             </div>
             <div class="col-md-3">
                 <div id="member">
