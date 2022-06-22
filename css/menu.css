@@ -8,16 +8,16 @@ body {
 
 @media screen and (max-width: 1300px) { 
     #side_icon { display: none; } 
-    #login { display: none; }
+    #logincontent { display: none; }
     .menu { display: none; }
-    #searching {padding-bottom: 100px;}
+    img#searching {padding-left: 100px; position: fixed;}
 }
 @media screen and (max-width: 1090px) { 
     #liveorder  { display: none; }
     #hotitem  { display: none; }
     #logo {margin-left: 25px;}
     input.keyword {margin-top: 30px;}
-    img#searching {padding-top: 80px;}
+    img#searching {position: fixed;}
     img#camera {padding-top: 80px; }
     #store { padding-right: 100px;}
 }
@@ -106,7 +106,7 @@ li{
     width: 83%;
     float: left;
     height: 50px;
-    padding-left: 4%;   /*돋보기 아이콘 뒤 검색 입력 창 시작 위치*/
+    padding-left: 50px;   /*돋보기 아이콘 뒤 검색 입력 창 시작 위치*/
     margin-left: 35px;
     border : 2px solid rgb(245, 245, 245);
     background-color: rgb(245, 245, 245);
@@ -120,25 +120,27 @@ input {
 }
 
 #searchwindow {
-    position: relative;
-}
-
-#searching {    /*돋보기 아이콘*/
-    justify-content: space-between;
-    position: absolute;
-    top: 12px;
-    left: 130px;
-}
-
-#camera {   /*카메라 아이콘*/
-    position: absolute;
-    padding-top: 5px;
-    right: 8%;
-    z-index: 10;
-    width: 40px;
-    float: right;
+    display: flex;
 }
 
 #flow {
     font-size: 13px;
 }
+
+img#searching {    /*돋보기 아이콘*/
+    position: absolute;
+    top: 65px;
+    left: 280px;
+    margin-top: 12px;
+    padding: 0%;
+    z-index: 5;
+}
+
+#camera {   /*카메라 아이콘*/
+    position: absolute;
+    top: 63px;
+    padding-top: 5px;
+    right: 35%;
+    z-index: 5;
+    width: 40px;
+} 
