@@ -1,3 +1,8 @@
+@media screen and (max-width: 1200px) { 
+    #liveorder  { display: none; }
+    #hotitem  { display: none; }
+}
+
 #promo {
     width: 95%;
     height: auto;

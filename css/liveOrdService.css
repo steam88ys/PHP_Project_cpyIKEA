@@ -1,3 +1,8 @@
+@media screen and (max-width: 1200px) { 
+    #deli {display: none;}
+    #hotitem  { display: none; }
+}
+
 a {
     font-size: small;
 }
