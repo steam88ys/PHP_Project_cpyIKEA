@@ -1,3 +1,7 @@
+@media all and (max-width: 768px){  /* 모바일 */
+	.fcontent {display: none;}
+}
+
 footer {
     font-size: small;
     background-color: rgba(220, 220, 220, 0.279);
