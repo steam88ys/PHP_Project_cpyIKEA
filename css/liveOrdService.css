@@ -18,6 +18,10 @@ a {
     padding-left: 20px;
 }
 
+#threecontent {
+    display: block;
+}
+
 h4 {
     font-weight: bold;
 }

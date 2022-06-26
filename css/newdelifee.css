@@ -9,7 +9,8 @@ body {
 
 #content {
     padding-top: 50px;
-    width: 710px;
+    width: 90%;
+    display: block;
 }
 #pickup1 {
     width: 94%;
@@ -30,6 +31,7 @@ a {
 }
 #leftcontent {
     padding-top: 60px;
+    display: block;
 }
 
 #rightimg {

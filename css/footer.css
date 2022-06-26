@@ -1,5 +1,6 @@
 @media all and (max-width: 768px){  /* 모바일 */
 	.fcontent {display: none;}
+    #end-footer {display: none;}
 }
 
 footer {
