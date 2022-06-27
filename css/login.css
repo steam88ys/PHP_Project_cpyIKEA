@@ -3,10 +3,6 @@ body {
     overflow-y: hidden;
 }
 
-@media screen {
-    
-}
-
 @media screen and (max-width: 1300px) { 
     #white_content{position: static; padding-bottom: 100px; Width: 30%; }
     #login_footer{display: none;}
@@ -14,8 +10,8 @@ body {
 }
 @media screen and (max-width: 700px) { 
     #arrow {margin-bottom: 0%;}
-    #bluecontent {height: 300px;}
-    #logo2 {display: none;}
+    #bluecontent {height: 250px;}
+    #login_content {display: none;}
     #white_content {width: 100%;}
 }
 
@@ -44,7 +40,8 @@ h2 {
 }
 
 #login_content {
-    padding-left: 90px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #login_footer {
@@ -54,7 +51,8 @@ h2 {
 
 #white_content {
     margin-top: 50px;
-    padding-left: 90px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #sq_btn {
