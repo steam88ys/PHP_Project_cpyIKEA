@@ -29,21 +29,21 @@ a {
     color: black;
 }
 #leftcontent {
-    padding-top: 60px;
     display: block;
 }
 
 #rightimg {
     float: right;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-right: 10%;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 #line2 {
     width: 96%;
     padding-top: 30px;
     padding-bottom: 50px;
+}
+
+footer {
+    margin-top: 5%;
 }
