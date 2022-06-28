@@ -1,10 +1,23 @@
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 768px) { 
+    #flow {margin-left: 5%;}
+    #line {display: none;}
+    #line2 {display: none;}
     #liveorder  { display: none; }
     #hotitem  { display: none; }
+    .col-md-5 {width: 92%; margin-left: 5%;}
+    #content {width: 92%; margin-left: 5%;}
+    #rightimg {margin-bottom: 20%;}
 }
 
 body {
     font-size: small;
+}
+
+#youtube {
+    width: 100%; 
+    height:auto; 
+    padding-top: 20px; 
+    padding-bottom: 50px
 }
 
 #content {

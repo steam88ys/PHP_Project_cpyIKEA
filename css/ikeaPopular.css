@@ -1,6 +1,10 @@
 @media screen and (max-width: 1200px) { 
+    #flow {margin-left: 3%;}
+    #line2 {display: none;}
     #deli {display: none;}
     #liveorder  { display: none; }
+    #content {width: 94%; margin-left: 3%;}
+    #favoriteProduct {width: 94%; margin-left: 3%;}
 }
 
 #favoriteProduct {

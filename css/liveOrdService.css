@@ -1,6 +1,12 @@
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 1300px) { 
+    #flow {margin-left: 3%;}
+    #line2 {display: none;}
     #deli {display: none;}
     #hotitem  { display: none; }
+    #livecontent {margin-left: 3%;}
+    #content {margin-left: 3%;}
+    .col-md-3 {width:94% ; margin-left: 3%;}
+    #callOrder {width: 94%; margin-left: 3%;}
 }
 
 a {
