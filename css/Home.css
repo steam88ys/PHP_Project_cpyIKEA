@@ -1,15 +1,29 @@
-@media screen and (max-width: 800px) {
-    #flow {margin-left: 3%;}
+@media screen and (max-width: 768px) {  /* 모바일 */
+    #flow {margin-left: 5%;}
     #line {display: none;} 
-    .main_content {margin-left: 3%; margin-right: 1%;}
+    .main_content {margin-left: 5%;}
     #liveorder  { display: none; }
     #hotitem  { display: none; }
+    #event {margin-bottom: 15%;}
     #promo {margin-bottom: 15%;}
 }
 
+@media all and (min-width:768px) and (max-width:1023px) {   /* 테블릿 */
+    #line {display: none;} 
+    #liveorder  { display: none; }
+    #hotitem  { display: none; }
+    #event {margin-bottom: 20%;}
+    #promo {margin-bottom: 20%;}
+}
+
 #promo {
-    width: 95%;
+    width: 45%;
     height: auto;
+    padding-bottom: 5%;
+}
+
+#event {
+    width: 30%;
     padding-bottom: 5%;
 }
 
