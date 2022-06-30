@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {  /* 모바일 */
+    #total {width: 80%; margin-left: 3%;}
+}
+
+.login {
+    border: 1px solid rgba(128, 128, 128, 0.435);
+    border-radius: 5px;
+    margin-bottom: 20%;
+    padding: 50px 10px 50px 10px;
+    width: 95%;
+}   
+
+#getid {
+    width: 150px;
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+    border: 0.2px solid black;
+    border-radius: 30px;    
+}
+
+#makewish {
+    width: 200px;
+    padding: 10px 0px 10px 0px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+#total {
+    margin-left: 9%;
+}

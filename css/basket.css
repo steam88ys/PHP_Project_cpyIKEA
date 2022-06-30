@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {  /* 모바일 */
+    #total {width: 85%; margin-left: 8%;}
+}
+
+#content {
+   margin-left: 3%;
+}
+
+.login {
+    border: 1px solid rgba(128, 128, 128, 0.435);
+    border-radius: 5px;
+    margin-bottom: 20%;
+    padding: 50px 10px 50px 10px;
+    width: 95%;
+}
+
+#total {
+    margin-left: 6%;
+}
