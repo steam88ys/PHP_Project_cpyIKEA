@@ -1,12 +1,19 @@
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {  /* 모바일 */
     #flow {margin-left: 3%;}
-    #line2 {display: none;}
     #deli {display: none;}
     #hotitem  { display: none; }
-    #livecontent {margin-left: 3%;}
+    #livecontent {width: 90%; margin-left: 3%;}
     #content {margin-left: 3%;}
     .col-md-3 {width:94% ; margin-left: 3%;}
     #callOrder {width: 94%; margin-left: 3%;}
+}
+
+@media all and (min-width:768px) and (max-width:1023px) {   /* 테블릿 */
+    #flow {margin-left: 5%;}
+    #livecontent {margin-left: 5%;}
+    #content {margin-left: 5%;}
+    .col-md-3 {width:90% ; margin-left: 5%;}
+    #callOrder {width: 90%; margin-left: 5%;}
 }
 
 a {

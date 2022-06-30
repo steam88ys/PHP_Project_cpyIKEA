@@ -1,20 +1,31 @@
-@media screen and (max-width: 768px) { 
-    #flow {margin-left: 3%;}
+@media screen and (max-width: 768px) {  /* 모바일 */
+    #flow {margin-left: 5%;}
     #line2 {display: none;}
     #deli {display: none;}
     #liveorder  { display: none; }
-    #content {width: 94%; margin-left: 3%;}
-    .col-md-2 {display: block;}
+    #popularproduct {width: 90%; margin-left: 6%;}
+    #content {width: 94%; margin-left: 7%; display: block;}
+    .col-md-3 {display: block;}
+}
+
+@media all and (min-width:768px) and (max-width:1023px) {   /* 테블릿 */
+    #flow {margin-left: 8%;}
+    #line2 {display: none;}
+    #popularproduct {width: 100%; margin-left: 8%;}
+    #content {width: 30%;}
+    .col-md-3 {display: block;}
+    #furniture {margin-left: 3%; margin-top: 10%;}
+    #text {margin-left: 8%;}
 }
 
 #favoriteProduct {
-    width: 100%;
+    width: 80%;
     height: 100%;
     padding-top: 90px;
     padding-bottom: 20%;
 }
 
 #furniture {
-    width: 100%;
+    width: 90%;
     padding-bottom: 10%;
 }

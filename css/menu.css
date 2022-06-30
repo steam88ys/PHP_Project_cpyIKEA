@@ -9,11 +9,17 @@ body {
 	body {width: 100%;}
     #watchingnow {display: none;}
     #searchwindow {padding-top: 50px;}
+    #line2 {display: none;}
+    #line {display: none;}
     #liveorder {display: inline;}
     #hotitem {display: inline;}
     #searchwindow { float: left; width: 75%; padding-top: 0;}
     img#camera {display: none;}
     .col-md-12 {display: none;}
+    #logo {margin-left: 20px;}
+    .keyword {width: 60%;}
+    img#camera {margin-left: 58%;}
+    #right_icon {display: none;}
 }
 @media screen and (max-width: 1300px) { 
     #side_icon { visibility: hidden; } 
@@ -28,11 +34,6 @@ body {
     .keyword {width: 70%;}
     img#camera {margin-left: 40%;}
     .col-md-3 {display: none;}
-}
-@media screen and (max-width: 768px) { 
-    #logo {margin-left: 20px;}
-    .keyword {width: 60%;}
-    img#camera {margin-left: 58%;}
 }
 
 #logo{
