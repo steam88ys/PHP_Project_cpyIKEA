@@ -11,6 +11,7 @@
 @media all and (min-width:768px) and (max-width:1023px) {   /* 테블릿 */
     #flow {margin-left: 5%;}
     #livecontent {margin-left: 5%;}
+    #line {display: none;}
     #content {margin-left: 5%;}
     .col-md-3 {width:90% ; margin-left: 5%;}
     #callOrder {width: 90%; margin-left: 5%;}

@@ -4,8 +4,9 @@
     #deli {display: none;}
     #liveorder  { display: none; }
     #popularproduct {width: 90%; margin-left: 6%;}
-    #content {width: 94%; margin-left: 7%; display: block;}
-    .col-md-3 {display: block;}
+    #content {width: 93%; margin-left: 10%;}
+    #text {margin-left: 7%;}
+    #furniture {margin-left: 8%;}
 }
 
 @media all and (min-width:768px) and (max-width:1023px) {   /* 테블릿 */
@@ -13,9 +14,12 @@
     #line2 {display: none;}
     #popularproduct {width: 100%; margin-left: 8%;}
     #content {width: 30%;}
-    .col-md-3 {display: block;}
-    #furniture {margin-left: 3%; margin-top: 10%;}
     #text {margin-left: 8%;}
+    #furniture {margin-left: 5%;}
+}
+
+#content {
+    display: block;
 }
 
 #favoriteProduct {

@@ -1,6 +1,6 @@
 @media screen and (max-width: 800px) {
     #flow {margin-left: 3%;}
-    #line2 {display: none;} 
+    #line {display: none;} 
     .main_content {margin-left: 3%; margin-right: 1%;}
     #liveorder  { display: none; }
     #hotitem  { display: none; }
