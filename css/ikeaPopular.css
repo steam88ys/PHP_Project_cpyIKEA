@@ -1,19 +1,20 @@
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 768px) { 
     #flow {margin-left: 3%;}
     #line2 {display: none;}
     #deli {display: none;}
     #liveorder  { display: none; }
     #content {width: 94%; margin-left: 3%;}
-    #favoriteProduct {width: 94%; margin-left: 3%;}
+    .col-md-2 {display: block;}
 }
 
 #favoriteProduct {
+    width: 100%;
+    height: 100%;
     padding-top: 90px;
-    padding-bottom: 60px;
+    padding-bottom: 20%;
 }
 
 #furniture {
     width: 100%;
-    padding-top: 70px;
-    padding-bottom: 60px;
+    padding-bottom: 10%;
 }

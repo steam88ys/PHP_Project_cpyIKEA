@@ -1,4 +1,4 @@
-@media screen and (max-width: 1300px) { 
+@media screen and (max-width: 768px) { 
     #flow {margin-left: 3%;}
     #line2 {display: none;}
     #deli {display: none;}
