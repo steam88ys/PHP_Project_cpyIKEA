@@ -4,9 +4,9 @@
     #deli {display: none;}
     #liveorder  { display: none; }
     #popularproduct {width: 90%; margin-left: 6%;}
-    #content {width: 93%; margin-left: 10%;}
+    #content {width: 44%; margin-left: 6%; }
     #text {margin-left: 7%;}
-    #furniture {margin-left: 8%;}
+    #furniture { margin-left: 8%;}
 }
 
 @media all and (min-width:768px) and (max-width:1023px) {   /* 테블릿 */
@@ -20,6 +20,7 @@
 
 #content {
     display: block;
+    padding: 0%;
 }
 
 #favoriteProduct {
