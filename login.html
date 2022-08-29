@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <title>로그인 - IKEA</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+           
+            <div class="col-md-5" id="bluecontent">
+                <a href="../html/index.html"><img src="../img/arrow.png" id="arrow"></a>
+                <img src="../img/logo2.png" id="logo2">
+
+                <div id="login_content">
+                    <h2>로그인</h2>
+                    외워야 할 비밀번호가 많아 불편하셨죠?<br>
+                    이제 일회용 코드를 이용하여 간편하게 로그인하세요.<br><br>
+                    * 이메일 또는 휴대폰 번호 최초 인증 후 사용 가능
+
+                    <div id="login_footer">
+                        IKEA.kr - 쿠키 정책 , 개인정보처리방침<br>
+                        © Inter IKEA Systems B.V. 1999-2022
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-5" id="white_content" style="padding-top: 60px;">
+                <form method="post" action="login.php">
+                    이메일 또는 확인된 휴대폰 번호<br>
+                    <input id="sq_btn" type="text" name="email" size="50"><br>
+                    다른 로그인 옵션: 일회용 코드로 로그인<br><br>
+
+                    비밀번호<br>
+                    <input id="sq_btn" type="text" name="password" size="50"><br>
+                    비밀번호 찾기<br><br>
+                    <input type="checkbox" name="loginstate" id="loginstate">&nbsp;&nbsp;&nbsp;로그인 상태 유지<br><br>
+
+                    <button id="log_btn" class="blue_btn" type="submit">로그인</button><br><br><br><br>
+
+                    <strong>계정이 없으신가요? 지금 바로 만들어보세요:</strong> <br><br><br>
+                    <input id="log_btn" class="white_btn" type="submit" value="개인 회원 가입하기" style="border: 1px solid black;"><br><br>
+                    <input id="log_btn" class="white_btn" type="submit" value="비즈니스 회원 가입하기" style="border: 1px solid black;"><br>
+                </form>
+            </div>
+            
+            <div class="col-md-1" ></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+
+</html>
