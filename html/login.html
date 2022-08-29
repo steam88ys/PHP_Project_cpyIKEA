@@ -30,24 +30,26 @@
                     </div>
                 </div>
             </div>
-
+            
             <div class="col-md-5" id="white_content" style="padding-top: 60px;">
-                이메일 또는 확인된 휴대폰 번호<br>
-                <input id="sq_btn" type="text" name="email" size="50"><br>
-                다른 로그인 옵션: 일회용 코드로 로그인<br><br>
+                <form method="post" action="login.php">
+                    이메일 또는 확인된 휴대폰 번호<br>
+                    <input id="sq_btn" type="text" name="email" size="50"><br>
+                    다른 로그인 옵션: 일회용 코드로 로그인<br><br>
 
-                비밀번호<br>
-                <input id="sq_btn" type="text" name="pasword" size="50"><br>
-                비밀번호 찾기<br><br>
-                <input type="checkbox" name="loginstate" id="loginstate">&nbsp;&nbsp;&nbsp;로그인 상태 유지<br><br>
+                    비밀번호<br>
+                    <input id="sq_btn" type="text" name="password" size="50"><br>
+                    비밀번호 찾기<br><br>
+                    <input type="checkbox" name="loginstate" id="loginstate">&nbsp;&nbsp;&nbsp;로그인 상태 유지<br><br>
 
-                <input id="log_btn" class="blue_btn" type="submit" value="로그인"><br><br><br><br>
+                    <button id="log_btn" class="blue_btn" type="submit">로그인</button><br><br><br><br>
 
-                <strong>계정이 없으신가요? 지금 바로 만들어보세요:</strong> <br><br><br>
-                <input id="log_btn" class="white_btn" type="submit" value="개인 회원 가입하기" style="border: 1px solid black;"><br><br>
-                <input id="log_btn" class="white_btn" type="submit" value="비즈니스 회원 가입하기" style="border: 1px solid black;"><br>
+                    <strong>계정이 없으신가요? 지금 바로 만들어보세요:</strong> <br><br><br>
+                    <input id="log_btn" class="white_btn" type="submit" value="개인 회원 가입하기" style="border: 1px solid black;"><br><br>
+                    <input id="log_btn" class="white_btn" type="submit" value="비즈니스 회원 가입하기" style="border: 1px solid black;"><br>
+                </form>
             </div>
-
+            
             <div class="col-md-1" ></div>
         </div>
     </div>
